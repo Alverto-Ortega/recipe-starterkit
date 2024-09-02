@@ -37,42 +37,6 @@ Welcome to the Recipe Starter Kit! This project is built with Vite, React, CSS M
     Use the navigation bar to switch between Home, About, and Recipes pages.
     Add new recipes using the form on the Recipes page.
 
-## Project Structure
-
-recipe-starterkit/
-├── public/
-│   └── vite.svg
-├── src/
-│   ├── assets/
-│   │   └── react.svg
-│   ├── components/
-│   │   ├── AddRecipe.jsx
-│   │   ├── RecipeList.jsx
-│   │   └── NavBar.jsx
-│   │   └── NavBar.module.css
-│   │   └── AddRecipe.module.css
-│   ├── graphql/
-│   │   ├── resolvers.js
-│   │   └── schema.js
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── About.jsx
-│   │   ├── Recipes.jsx
-│   │   └── Recipes.module.css
-│   ├── utility/
-│   │   └── databaseUtils.js
-│   └── App.jsx
-│   └── main.jsx
-│   └── App.css
-│   └── index.css
-├── .env
-├── index.html
-├── LICENSE.txt
-├── README.md
-├── package.json
-├── server.js
-└── vite.config.js
-
 ## Environment Variables
 
 Create a .env file in the root directory and add the following variables:
