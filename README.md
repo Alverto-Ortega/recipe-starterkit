@@ -1,6 +1,6 @@
-# Recipe Starter Kit
+# Food Recipe Starter Kit
 
-Welcome to the Recipe Starter Kit! This project is built with Vite, React, CSS Modules, GraphQL, and the NEON stack. It allows users to add and view recipes in real-time.
+Welcome to my Food Recipe Starter Kit! This project is built with Vite, React, CSS Modules, GraphQL, and the NEON stack. It allows users to add and view recipes in real-time.
 
 ## Features
 
