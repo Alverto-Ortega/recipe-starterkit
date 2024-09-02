@@ -1,0 +1,15 @@
+Note: when starting server via npm run dev, be sure to wait until command logs "connected to web socket" which is usually when you enter the website via browser
+
+
+for query subscription feature to database where real-time live updates are working on web page
+npm install @apollo/client subscriptions-transport-ws
+
+for being able to run my app and the node server at the same time on my local computer:
+npm install concurrently --save-dev
+
+for setting up subscription service
+npm graphql-subscriptions
+npm install graphql-ws
+
+for including an image file upload option for recipes submitted 
+npm install graphql-upload

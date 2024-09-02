@@ -1,0 +1,38 @@
+.recipe-list {
+ /* Center the box */
+ margin: 20px auto;
+ width: 80%;
+ max-width: 600px;
+ height: 300px; /* Adjust height as needed */
+ 
+ /* Highlighted border */
+ border: 2px solid #ff6347; /* Tomato color */
+ border-radius: 10px;
+ 
+ /* Scrollable content */
+ overflow-y: auto;
+ 
+ /* Elegant box shadow */
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ 
+ /* Padding for content */
+ padding: 20px;
+ 
+ /* Background color */
+ background-color: #fff;
+ color:brown;
+}
+
+.recipe-list::-webkit-scrollbar {
+width: 10px;
+}
+
+.recipe-list::-webkit-scrollbar-track {
+background-color: #f1f1f1;
+border-radius: 5px;
+} 
+
+.recipe-list::-webkit-scrollbar-thumb {
+background-color: #ff6347;
+border-radius: 5px;
+}
