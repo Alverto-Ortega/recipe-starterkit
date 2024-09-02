@@ -12,7 +12,7 @@ Welcome to the Recipe Starter Kit! This project is built with Vite, React, CSS M
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/recipe-starterkit.git
+   git clone https://github.com/Alverto-Ortega/recipe-starterkit.git
    cd recipe-starterkit
 
     Install dependencies:
