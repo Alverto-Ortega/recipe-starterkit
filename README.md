@@ -15,12 +15,11 @@ Welcome to the Recipe Starter Kit! This project is built with Vite, React, CSS M
    git clone https://github.com/Alverto-Ortega/recipe-starterkit.git
    cd recipe-starterkit
 
-    Install dependencies:
+2. Install dependencies:
     npm install
 
     Create a .env file in the root directory and add your PostgreSQL credentials from your Neon account:
-    env
-
+   
     PGHOST=your_host
     PGDATABASE=your_database
     PGUSER=your_user
@@ -36,18 +35,7 @@ Welcome to the Recipe Starter Kit! This project is built with Vite, React, CSS M
     The GraphQL API is available at http://localhost:4000/graphql.
     Use the navigation bar to switch between Home, About, and Recipes pages.
     Add new recipes using the form on the Recipes page.
-
-## Environment Variables
-
-Create a .env file in the root directory and add the following variables:
-env
-
-PGHOST=your_host
-PGDATABASE=your_database
-PGUSER=your_user
-PGPASSWORD=your_password
-PORT=4000
-
+    
 ## Technologies Used
 
     Frontend:
