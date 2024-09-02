@@ -16,20 +16,26 @@ Welcome to the Recipe Starter Kit! This project is built with Vite, React, CSS M
    cd recipe-starterkit
 
 2. Install dependencies:
+
     npm install
 
-    Create a .env file in the root directory and add your PostgreSQL credentials from your Neon account:
+3. Create a .env file in the root directory and add your PostgreSQL credentials from your Neon account:
    
     PGHOST=your_host
+   
     PGDATABASE=your_database
+   
     PGUSER=your_user
+   
     PGPASSWORD=your_password
+   
     PORT=4000
 
-##    Start the development server:
+4. Start the development server:
+
     npm run dev
 
-## Usage
+5. Usage
 
     Open your browser and navigate to http://localhost:5173
     The GraphQL API is available at http://localhost:4000/graphql.
@@ -88,7 +94,7 @@ This project is a recipe management application that allows users to add and vie
    - **GraphQL Subscriptions**: Enables real-time updates.
    - **WebSocket**: A protocol for full-duplex communication channels over a single TCP connection.
 
-#### Detailed Code Explanation
+#### Code Explanation
 
 1. **Server Configuration (`server.js`)**:
    - Sets up the Express server.
